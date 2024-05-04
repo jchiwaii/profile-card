@@ -41,6 +41,40 @@ body {
   overflow: hidden;
 }
 
+.profile-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.main-text {
+  font-size: 18px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
   display: inline-block;
+  font-size: inherit;
+}
+
+em {
+  font-style: normal;
+  padding: 0 5px;
+}
+
+.fade {
+  color: var(--primary-dark-grayish-blue);
+}
+
+.location {
+  display: block;
 }
