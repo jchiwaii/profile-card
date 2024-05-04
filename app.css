@@ -2,7 +2,7 @@
 :root {
   --primary-dark-cyan: hsl(185, 75%, 39%);
   --primary-very-dark-desaturated-blue: hsl(229, 23%, 23%);
-  --primary-dark-grayish-blue: hsl(227, 10%, 46%);
+  --primary-dark-grayish-blue: rgba(106, 111, 129, 0.7);
 }
 
 /* Neutral */
@@ -24,7 +24,7 @@ body {
   font-size: 18px;
   background-image: url(/images/bg-pattern-top.svg),
     url(/images/bg-pattern-bottom.svg);
-  background-position: -30%, top -40% right -40%;
+  background-position: -5%, top -40% right -12%;
   background-repeat: no-repeat;
   background-size: 50%, 50%;
   background-color: var(--primary-dark-cyan);
@@ -37,7 +37,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: var(----neutral-white);
   max-width: 350px;
-  height: 50vh;
+  height: 53vh;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -86,10 +86,20 @@ em {
   padding-bottom: 28px;
 }
 
+.fade {
+  color: var(--primary-dark-grayish-blue);
+  font-weight: 400;
+}
+.location {
+  display: block;
+  font-size: 14px;
+}
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  padding: 0 14px;
+  font-size: 14px;
 }
 
 ul li {
@@ -102,13 +112,6 @@ ul li span {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.8px;
-}
-
-.fade {
-  color: var(--primary-dark-grayish-blue);
-  font-weight: 400;
-}
-.location {
-  display: block;
-  font-size: 16px;
+  padding: 3px 0;
+  font-size: inherit;
 }
