@@ -1,6 +1,7 @@
 # Frontend Mentor - Profile card component solution
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -9,8 +10,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -26,8 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-vanilla-css-and-html-OZBFCyzKwL)
+- Live Site URL: [Vercel](https://profile-card-lemon-two.vercel.app/)
 
 ## My process
 
@@ -40,8 +39,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Useful resources
 
 - [Stack Overflow](https://stackoverflow.com/questions/66789703/how-to-make-picture-fit-inside-half-circle) - Aligning the profile picture with the header
+
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jchiwaii)
 - Twitter - [@jchiwaii](https://www.twitter.com/jchiwaii)
