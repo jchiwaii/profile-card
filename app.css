@@ -8,6 +8,7 @@
 /* Neutral */
 :root {
   --neutral-dark-gray: hsl(0, 0%, 59%);
+  ----neutral-white: hsl(0, 0%, 100%);
 }
 
 *,
@@ -34,7 +35,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--neutral-dark-gray);
+  background-color: var(----neutral-white);
   max-width: 350px;
   height: 50vh;
   border-radius: 8px;
